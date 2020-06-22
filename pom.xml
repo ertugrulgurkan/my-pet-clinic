@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.ertugrul</groupId>
     <artifactId>my-pet-clinic</artifactId>
-    <version>0.0.4</version>
+    <version>0.0.5-SNAPSHOT</version>
     <name>my-pet-clinic</name>
     <description>Demo project for Spring Boot</description>
 
@@ -48,7 +48,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:ertugrulgurkan/my-pet-clinic.git</developerConnection>
-    <tag>my-pet-clinic-0.0.4</tag>
+    <tag>HEAD</tag>
   </scm>
 
 </project>
