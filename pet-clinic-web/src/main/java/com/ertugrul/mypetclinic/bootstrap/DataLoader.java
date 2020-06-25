@@ -17,8 +17,9 @@ public class DataLoader implements CommandLineRunner {
         this.ownerService = ownerService;
         this.vetService = vetService;
     }
+
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args){
 
         Owner o1 = new Owner();
         o1.setId(1L);
