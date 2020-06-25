@@ -6,5 +6,17 @@
 </head>
 <body>
 <h1 th:text="'List of Vets'">Vets Index Page</h1>
+<table th:border="1">
+    <tr>
+        <td>ID</td>
+        <td>First Name</td>
+        <td>Last Name</td>
+    </tr>
+    <tr th:each="vet : ${vets}">
+        <td th:text="${vet.id}">1</td>
+        <td th:text="${vet.firstName}">Ertugrul</td>
+        <td th:text="${vet.lastName}">Gurkan</td>
+    </tr>
+</table>
 </body>
 </html>
