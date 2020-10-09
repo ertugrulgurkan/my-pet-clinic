@@ -1,5 +1,3 @@
-!DOCTYPE html>
-
 <html xmlns:th="http://www.thymeleaf.org"
       th:replace="~{fragments/layout :: layout (~{::body},'owners')}">
 
@@ -49,7 +47,7 @@
                 <dd
                         th:text="${#temporals.format(pet.birthDate, 'yyyy-MM-dd')}" /></dd>
                 <dt>Type</dt>
-                <dd th:text="${pet.type}" /></dd>
+                <dd th:text="${pet.petType}" /></dd>
             </dl>
         </td>
         <td valign="top">

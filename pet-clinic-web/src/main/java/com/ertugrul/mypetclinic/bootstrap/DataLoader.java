@@ -58,15 +58,15 @@ public class DataLoader implements CommandLineRunner {
         Owner o1 = new Owner();
         o1.setFirstName("Ertuğrul");
         o1.setLastName("Gürkan");
-        o1.setAddress("123 Çankaya");
-        o1.setCity("Ankara");
+        o1.setAddress("123 Bayrampaşa");
+        o1.setCity("İstanbul");
         o1.setTelephone("1231231234");
 
         Owner o2 = new Owner();
-        o2.setFirstName("Betül");
-        o2.setLastName("Çiftçi");
-        o2.setAddress("123 Çankaya");
-        o2.setCity("Ankara");
+        o2.setFirstName("Ahmet");
+        o2.setLastName("Sarı");
+        o2.setAddress("123 Başakşehir");
+        o2.setCity("İstanbul");
         o2.setTelephone("1231231234");
 
         Pet ourPet = new Pet();
