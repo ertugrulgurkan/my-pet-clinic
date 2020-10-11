@@ -42,10 +42,10 @@ public class DataLoader implements CommandLineRunner {
         radiology.setDescription("Radiology");
 
         Speciality surgery = new Speciality();
-        radiology.setDescription("Surgery");
+        surgery.setDescription("Surgery");
 
         Speciality dentistry = new Speciality();
-        radiology.setDescription("Dentistry");
+        dentistry.setDescription("Dentistry");
 
 
         Speciality savedSurgery = specialityService.save(surgery);
